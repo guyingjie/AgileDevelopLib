@@ -1,0 +1,3 @@
+include ':basictoolslib'
+include ':app'
+rootProject.name = "AgileDevelopLib"
