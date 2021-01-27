@@ -4,4 +4,6 @@
     <color name="line">#F2F2F2</color>
     <color name="red">#EB3B3B</color>
     <color name="white">#FFFFFF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="medium_text">#777777</color>
 </resources>
