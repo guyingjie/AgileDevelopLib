@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 public class JavaActivity extends AppCompatActivity {
 
-    private int r, a, b = 2;
+    private int r, a, b = 2 ;
     private Integer m, n = 2;
     private String who, name = "顾英杰";
     private String[] anis, animals = {"鸟", "鱼", "虾"};
