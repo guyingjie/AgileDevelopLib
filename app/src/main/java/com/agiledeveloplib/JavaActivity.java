@@ -17,6 +17,7 @@ public class JavaActivity extends AppCompatActivity {
     private int r, a, b = 2;
     private Integer m, n = 2;
     private String who, name = "顾英杰";
+    private StringBuffer wo, he = new StringBuffer("顾英杰");
     private String[] anis, animals = {"鸟", "鱼", "虾"};
     //引用数据类型如String、Integer、ArrayList、[]数组等只声明不初始化，系统会默认赋值为null，直接调用对象属性方法会抛出空指针异常
     private ArrayList<String> peoples, persons = new ArrayList<>(), others = new ArrayList<>();
@@ -39,6 +40,10 @@ public class JavaActivity extends AppCompatActivity {
         who = name;
         name = "黄秀锋";
         Log.e("TAG", "onCreate基本数据类型包装而来的引用数据类型: who=" + who + ",,,name=" + name);
+
+        wo = he;
+        he.append("、黄秀锋");
+        Log.e("TAG", "onCreate基本数据类型包装而来的引用数据类型: wo=" + wo + ",,,he=" + he);
 
         anis = animals;
         animals[2] = "罗氏虾";
