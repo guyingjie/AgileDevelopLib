@@ -15,6 +15,10 @@ import java.util.Arrays;
 public class JavaActivity extends AppCompatActivity {
 
     private int r, a, b = 2;
+    /*
+    * 引用数据类型传递栈内存地址，指向new开辟的堆内存存放的实际值，故而引用一处修改处处修改
+    * **注意**，Java对包装类Integer、Double等和String引用数据类型做了特殊处理，=赋值时相当于copy一份存放在自有的堆内存，因此不适用一处修改处处修改
+    * */
     private Integer m, n = 2;
     private String who, name = "顾英杰";
     private StringBuffer wo, he = new StringBuffer("顾英杰");
